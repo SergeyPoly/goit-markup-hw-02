@@ -66,26 +66,32 @@ footer,
   background-color: var(--secondary-accent-color);
 }
 
-.header-menu a {
+.menu-item {
   color: var(--primary-accent-color);
   font-weight: 500;
   text-transform: capitalize;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.header-menu a:hover {
+.menu-item:hover,
+.menu-item:focus {
   color: var(--hoover-text-color);
 }
 
 .logo {
+  font-family: var(--secondary-font);
   text-transform: uppercase;
   color: var(--secondary-text-color);
-  font-family: var(--secondary-font);
   font-size: 18px;
-  line-height: 21px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
   margin-right: 76px;
+  font-weight: 700;
 }
 
-header .logo span {
+.header-logo-substring {
   color: var(--primary-accent-color);
 }
 
@@ -93,11 +99,19 @@ footer .logo span {
   color: var(--secondary-accent-color);
 }
 
-.contacts a {
-  color: var(--primary-accent-color);
+.contacts {
+  font-style: normal;
 }
 
-.contacts a:hover {
+.contacts-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-colorr);
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
   color: var(--hoover-text-color);
 }
 
