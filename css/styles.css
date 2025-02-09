@@ -12,7 +12,6 @@
 
 * {
   margin: 0;
-  /* padding: 0; */
 }
 
 body {
@@ -32,15 +31,10 @@ a {
   font-style: normal;
 }
 
-/* img {
-  display: block;
-} */
-
 h1 {
   font-size: 56px;
   line-height: 60px;
   color: var(--primary-white-color);
-  /* width: 496px; */
   margin: 0 auto 48px;
 }
 
@@ -60,7 +54,6 @@ h3 {
 }
 
 .container {
-  /* width: 1128px; */
   margin: 0 auto;
 }
 
@@ -72,22 +65,6 @@ footer,
 .our-team {
   background-color: var(--secondary-accent-color);
 }
-
-/* header {
-  padding: 24px 0;
-} */
-
-/* .header-section,
-nav {
-  display: flex;
-  justify-content: space-between;
-} */
-
-/* .header-menu {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-} */
 
 .header-menu a {
   color: var(--primary-accent-color);
@@ -106,7 +83,6 @@ nav {
   font-size: 18px;
   line-height: 21px;
   margin-right: 76px;
-  /* display: block; */
 }
 
 header .logo span {
@@ -117,12 +93,6 @@ footer .logo span {
   color: var(--secondary-accent-color);
 }
 
-/* .contacts ul {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-} */
-
 .contacts a {
   color: var(--primary-accent-color);
 }
@@ -132,14 +102,11 @@ footer .logo span {
 }
 
 .main-section {
-  /* padding: 188px 0; */
   text-align: center;
 }
 
 .order-btn {
-  /* padding: 16px 32px; */
   border: none;
-  /* border-radius: 3px; */
   background-color: var(--secondary-text-color);
   color: var(--primary-white-color);
   cursor: pointer;
@@ -149,60 +116,26 @@ footer .logo span {
   background-color: var(--hoover-text-color);
 }
 
-/* .features-section,
-.team-section,
-.portfolio-section {
-  padding: 120px 0;
-} */
-
-/* .features-section ul {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-} */
-
 .team-section {
   background-color: var(--secondary-accent-color);
 }
-
-/* .team-section ul {
-  display: flex;
-  justify-content: space-between;
-} */
 
 .team-item {
   background-color: var(--primary-white-color);
 }
 
 .team-item-description {
-  /* padding: 32px 16px; */
   text-align: center;
 }
-
-/* .portfolio-section ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 24px;
-  row-gap: 48px;
-} */
 
 .portfolio-item {
   border: 1px solid var(--border-color);
 }
-
-/* .portfolio-item-description {
-  padding: 32px 16px;
-} */
-
-/* footer {
-  padding: 100px 0;
-} */
 
 footer .logo {
   margin-bottom: 16px;
 }
 
 .footer-text {
-  /* width: 264px; */
   color: var(--secondary-accent-color);
 }
